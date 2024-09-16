@@ -1,0 +1,130 @@
+body {
+    background-color: #eaecee;
+}
+nav {
+    text-align: center;
+    color: #D4A373;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #eaecee;
+    padding: 10px 20px;
+}
+#destaque {
+    text-align: center;
+    padding: 47.1vh 0;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("img/Delacruz_Ft_GutoCosta_0195.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DAD7CD;
+    font-size: 3em !important;
+}
+#biografia {
+    padding: 50px 0;
+}
+#biografia img {
+    width: 100%;
+}
+#biografia h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#biografia p {
+    font-size: 1em;
+}
+#albuns {
+    background-color: #323232;
+}
+/* carousel */
+#carouselExampleCaptions{
+
+    & .carousel-item{
+        background-color: var(--white);
+        & a{
+            background-color: var(--darkPurple);
+            padding: 10px 30px;
+            border-radius: 25px;
+            color: var(--white);
+            text-decoration: none;
+            width: 25%;
+            text-align: center;
+        }
+    }
+}
+.carousel-item .col:first-of-type{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    height: 100% inherit;
+    color: #fff;
+}
+.carousel-item h5 {
+    font-size: 3em;
+}
+.carousel-item p {
+    font-size: 1.5em;
+}
+#agenda {
+    background-color: #eaecee;
+    color: #323232;
+    padding: 50px 0px;
+}
+#agenda h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+#agenda .col {
+    padding: 40px 20px;
+}
+#contato {
+    background-color: #d5d8dc;
+    color: #323232;
+    padding: 50px 0px;
+}
+#contato h3 {
+    text-align: center;
+}
+form {
+    padding: 25px;
+}
+textarea::placeholder, input::placeholder {
+    color: #323232;
+    font-size: 1em;
+    font-style: italic;
+    padding: 10px;
+  }
+form input, form textarea{
+    width: 100%;
+    border: 1px solid #323232;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+form button{
+    border: 1px solid #323232;
+    padding: 5px;
+    margin-top: 10px;
+    float: right;
+    width: 8%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+footer {
+    background-color: #323232;
+    padding: 50px 0;
+    text-align: center;
+}
+footer a {
+    color: #d5d8dc;
+    font-size: 1.7em;
+    text-decoration: none;
+}
