@@ -99,15 +99,13 @@ form {
 textarea::placeholder, input::placeholder {
     color: #323232;
     font-size: 1em;
-    font-style: italic;
     padding: 10px;
   }
 form input, form textarea{
     width: 100%;
     border: 1px solid #323232;
-    padding: 5px;
+    padding: 7px;
     margin-top: 10px;
-    border-radius: 20px;
 }
 form button{
     border: 1px solid #323232;
